@@ -1,0 +1,3 @@
+@mixin media ($mq-breakpoint) {
+    @media (min-width: $mq-breakpoint) {@content};
+}

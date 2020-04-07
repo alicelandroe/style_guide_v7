@@ -17,7 +17,7 @@
   }
   
   .theme.col-1 {
-    background-color: #927bc1;
+    background-color: $purple;
   }
   
   .theme.col-2 {
@@ -68,7 +68,7 @@
     flex-basis: 100%;
   }
   
-  @media (min-width: 768px) {
+  @media (min-width: $tablet-breakpoint) {
 
     .container {
       max-width: 1400px;
@@ -82,7 +82,7 @@
       margin-left: auto;
       margin-right: auto;
     }
-    
+     
     .row {
       flex-direction: row;
     }

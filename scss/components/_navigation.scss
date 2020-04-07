@@ -15,13 +15,13 @@
       background-color .2s ease-in-out, 
       color .2s ease-in-out;
   }
-  
+   
   .nav-link:hover {
-    color: #fff;
-    background-color: #58e1c1;
+    color: $white;
+    background-color: $light-green;
   }
   
-  @media (min-width: 768px) {
+  @media (min-width: $tablet-breakpoint) {
   .nav {
     flex-direction: row;
     justify-content: flex-end;

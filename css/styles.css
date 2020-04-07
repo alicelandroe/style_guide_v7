@@ -9,40 +9,40 @@
   border-radius: 5px;
 }
 
-/* line 11, ../../../../../../../../../../../../../Users/alicefogelberg/Desktop/coding projects/style_guide_v7/scss/components/_button.scss */
+@media (min-width: 768px) {
+  /* line 1, ../../../../../../../../../../../../../Users/alicefogelberg/Desktop/coding projects/style_guide_v7/scss/components/_button.scss */
+  .btn {
+    padding: 10px 30px;
+  }
+  /* line 11, ../../../../../../../../../../../../../Users/alicefogelberg/Desktop/coding projects/style_guide_v7/scss/components/_button.scss */
+  .btn + .btn {
+    margin-left: 10px;
+  }
+}
+
+/* line 18, ../../../../../../../../../../../../../Users/alicefogelberg/Desktop/coding projects/style_guide_v7/scss/components/_button.scss */
 .default {
   background-color: #51ddfc;
 }
 
-/* line 15, ../../../../../../../../../../../../../Users/alicefogelberg/Desktop/coding projects/style_guide_v7/scss/components/_button.scss */
+/* line 22, ../../../../../../../../../../../../../Users/alicefogelberg/Desktop/coding projects/style_guide_v7/scss/components/_button.scss */
 .error {
   background-color: #e4757a;
 }
 
-/* line 19, ../../../../../../../../../../../../../Users/alicefogelberg/Desktop/coding projects/style_guide_v7/scss/components/_button.scss */
+/* line 26, ../../../../../../../../../../../../../Users/alicefogelberg/Desktop/coding projects/style_guide_v7/scss/components/_button.scss */
 .info {
   background-color: #927bc1;
 }
 
-/* line 23, ../../../../../../../../../../../../../Users/alicefogelberg/Desktop/coding projects/style_guide_v7/scss/components/_button.scss */
+/* line 30, ../../../../../../../../../../../../../Users/alicefogelberg/Desktop/coding projects/style_guide_v7/scss/components/_button.scss */
 .success {
   background-color: #63cc82;
 }
 
-/* line 27, ../../../../../../../../../../../../../Users/alicefogelberg/Desktop/coding projects/style_guide_v7/scss/components/_button.scss */
+/* line 34, ../../../../../../../../../../../../../Users/alicefogelberg/Desktop/coding projects/style_guide_v7/scss/components/_button.scss */
 .warning {
   background-color: #fd7856;
-}
-
-@media (min-width: 768px) {
-  /* line 35, ../../../../../../../../../../../../../Users/alicefogelberg/Desktop/coding projects/style_guide_v7/scss/components/_button.scss */
-  .btn {
-    padding: 10px 30px;
-  }
-  /* line 39, ../../../../../../../../../../../../../Users/alicefogelberg/Desktop/coding projects/style_guide_v7/scss/components/_button.scss */
-  .btn + .btn {
-    margin-left: 10px;
-  }
 }
 
 /* line 1, ../../../../../../../../../../../../../Users/alicefogelberg/Desktop/coding projects/style_guide_v7/scss/components/_navigation.scss */
