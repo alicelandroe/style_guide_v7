@@ -3,32 +3,26 @@
     flex-basis: 100%;
     display: flex;
     flex-direction: column;
+    @include media ($tablet-breakpoint) {
+      flex-direction: row;
+      justify-content: flex-end;
+      align-items: center;
+    }
+    &-link {
+      text-align: center;
+      border-radius: 5px;
+      padding: 10px 0;
+      display: block;
+      width: 100%;
+      transition: 
+        background-color .2s ease-in-out, 
+        color .2s ease-in-out;
+      &:hover {        // is this meeting the requirement "Use a nested selector structure for at least one component."?                         
+        color: $white;
+        background-color: $light-green;
+      }
+      @include media ($tablet-breakpoint) {
+        flex-basis: 100px;
+      }
+    }
   }
-  
-  .nav-link {
-    text-align: center;
-    border-radius: 5px;
-    padding: 10px 0;
-    display: block;
-    width: 100%;
-    transition: 
-      background-color .2s ease-in-out, 
-      color .2s ease-in-out;
-  }
-   
-  .nav-link:hover {
-    color: $white;
-    background-color: $light-green;
-  }
-  
-  @media (min-width: $tablet-breakpoint) {
-  .nav {
-    flex-direction: row;
-    justify-content: flex-end;
-    align-items: center;
-  }
-  
-  .nav-link {
-    flex-basis: 100px;
-  }
-}

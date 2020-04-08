@@ -12,26 +12,18 @@
         margin-left: 10px;
       }
     }
+  }
+  
+  $btn-backgrounds: ("default": $sky-blue, 
+                     "error": #e4757a, 
+                     "info": $purple, 
+                     "success": #63cc82, 
+                     "warning": #fd7856);
 
-  }
-  
-  .default {
-    background-color: $sky-blue;
-  }
-  
-  .error {
-    background-color: #e4757a;
-  }
-  
-  .info {
-    background-color: $purple;
-  }
-  
-  .success {
-    background-color: #63cc82;
-  }
-  
-  .warning {
-    background-color: #fd7856;
+  @each $name, $color in $btn-backgrounds {
+    .#{$name} {
+      background-color: $color;
+      @include lighten-hover($color);
+    }
   }
 
