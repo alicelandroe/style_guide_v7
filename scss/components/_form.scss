@@ -2,7 +2,7 @@
     flex-basis: 100%;
   }
   
-  .input{
+.input{
     display: block;
     width: 94%;
     margin: 10px auto 0;
@@ -11,7 +11,7 @@
     border-bottom: 5px solid $light-green;
   }
    
-  .hidden {
+.hidden {
     position:absolute;
     left:-10000px;
     top:auto;

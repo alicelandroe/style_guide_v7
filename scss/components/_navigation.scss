@@ -17,11 +17,11 @@
       transition: 
         background-color .2s ease-in-out, 
         color .2s ease-in-out;
-      &:hover {        // is this meeting the requirement "Use a nested selector structure for at least one component."?                         
+      &:hover {                                 
         color: $white;
         background-color: $light-green;
       }
-      @include media ($tablet-breakpoint) {
+      @include media ($tablet-breakpoint) { 
         flex-basis: 100px;
       }
     }

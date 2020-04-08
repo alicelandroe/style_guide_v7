@@ -5,6 +5,6 @@
 @mixin lighten-hover ($background-color) {
     transition: background-color ease-in .2s;
     &:hover {
-    background-color: lighten($background-color, 15%);
+        background-color: lighten($background-color, 15%);
     }
 }
